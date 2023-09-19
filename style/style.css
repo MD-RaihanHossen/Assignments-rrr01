@@ -8,18 +8,25 @@ body {
 .header-container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
-    padding: 20px 200px;
+    padding: 0px 200px;
     gap: 50px;
+    justify-content: center;
+    align-items: center;
     
+}
+.text-container{
+    padding-bottom: 30px;
 }
 
 .header-title{
     font-size:  30px;
     font-weight: 900;
+    margin: 0px;
 }
 .header-discription{
     color: rgba(39, 39, 39, 0.60);
     margin: 10;
+    font-size: 12px;
 }
 
 button{
