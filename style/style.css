@@ -12,32 +12,140 @@ body {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    
+
 }
-.text-container{
+
+.text-container {
     padding-bottom: 30px;
 }
 
-.header-title{
-    font-size:  30px;
+.header-title {
+    font-size: 30px;
     font-weight: 900;
     margin: 0px;
 }
-.header-discription{
+
+.header-discription,
+.featured-discription {
     color: rgba(39, 39, 39, 0.60);
-    margin: 10;
     font-size: 12px;
 }
 
-button{
+button {
     border: 0px;
     background-color: #E55473;
     border-radius: 8px;
     margin-top: 0;
-    padding: 10px 20px ;
+    padding: 10px 20px;
 }
 
-.images-container > img{
+.images-container>img {
     width: 100%;
     height: 100%;
+}
+
+/* header section end */
+.Featured-container {
+    margin-top: 150px;
+}
+
+.sub-section {
+    text-align: center;
+}
+
+.subsection-flowers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+
+.flower{
+    width: 100%;
+    height: 250px;
+    border-radius: 50% 50% 0px 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flower img{ 
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.flower-1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.flower-2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.flower-3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-Names{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    gap: 10px;
+}
+
+.flower-Names .name-title{
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.flower-Names .name-1{
+    padding-left: 50px;
+}
+.flower-Names .name-3{
+    padding-right: 50px;
+}
+
+/* our Delevary sections start */
+
+.section-Number3{
+    margin-top: 150px; 
+    padding: 0 200px;
+}
+.sub-container{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.08);
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+
+.containt-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Dalivery section end */
+
+/* our discount section start */
+.discount-containt-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.08);
+    height: 320px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+.discount-containt-container img{
+    height: 320px;
+}
+
+.discount-containt-container .discripstion, .section-Number3-discriptin{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
 }
