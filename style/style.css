@@ -31,7 +31,7 @@ body {
     font-size: 12px;
 }
 
-button {
+button , .button-2{
     border: 0px;
     background-color: #E55473;
     border-radius: 8px;
@@ -145,7 +145,53 @@ button {
     height: 320px;
 }
 
-.discount-containt-container .discripstion, .section-Number3-discriptin{
+ /* common discriptions style here */
+.discount-containt-container .discripstion, .section-Number3-discriptin, .instagram-discriptin{
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
+}
+
+.discount-containt-container span{
+    color: #E55473;
+}
+/* discount area end  */
+.text-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-container .intragram-title{
+    margin-bottom: 0;
+}
+.text-container-2 .instagram-discriptin{
+    width: 350px;
+    text-align: center;
+    margin-top: 0;
+}
+.images-container-2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    padding: 0 50px;
+    margin-bottom: 200px;
+     
+}
+
+
+.images-container-2 .image img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+
+/* section end */
+.search-box-section-contaier{
+    height: 300px;
+    border: 2px solid red;
+    background: url('images/Rectangle 9.png');
 }
