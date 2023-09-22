@@ -146,7 +146,7 @@ button , .button-2{
 }
 
  /* common discriptions style here */
-.discount-containt-container .discripstion, .section-Number3-discriptin, .instagram-discriptin{
+.discount-containt-container .discripstion, .section-Number3-discriptin, .instagram-discriptin, .search-discription{
     color: rgba(39, 39, 39, 0.60);
     font-size: 12px;
 }
@@ -191,7 +191,27 @@ button , .button-2{
 
 /* section end */
 .search-box-section-contaier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 300px;
-    border: 2px solid red;
-    background: url('images/Rectangle 9.png');
+    background: #000 url('../images/Rectangle\ 9.png') no-repeat  top center / 100% 300px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+}
+.search-title{
+    margin-bottom: 0;
+}
+.search-discription{
+    margin: 5px 0px 25px;
+
+}
+
+.search-input-container > input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0.05px solid gray;
+    margin-right: 10px;
 }
